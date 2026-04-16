@@ -1,0 +1,188 @@
+================================================================================
+File: /home/rickyu/ROB430/DP/LIBERO/libero/datasets/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate_demo.hdf5
+Size: 678.74 MB
+================================================================================
+
+--- Root ---
+
+--- Group: data ---
+  Attributes:
+    bddl_file_name: 'libero/libero/bddl_files/libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl'
+    env_args: '{"type": 1, "env_name": "Libero_Tabletop_Manipulation", "problem_name": "libero_tabletop_manipulation", "bddl_file": "chiliocosm/bddl_files/libero_spatial/pick_the_akita_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl", "env_kwargs": {"robots": ["Panda"], "controller_configs": {"type": "OSC_POSE", "input_max": 1, "input_min": -1, "output_max": [0.05, 0.05, 0.05, 0.5, 0.5, 0.5], "output_min": [-0.05, -0.05, -0.05, -0.5, -0.5, -0.5], "kp": 150, "damping_ratio": 1, "impedance_mode": "fixed", ... [truncated]'
+    env_name: 'Libero_Tabletop_Manipulation'
+    macros_image_convention: 'opengl'
+    num_demos: 50
+    problem_info: '{"problem_name": "libero_tabletop_manipulation", "domain_name": "robosuite", "language_instruction": "pick up the black bowl on the stove and place it on the plate"}'
+    tag: 'libero-v1'
+    total: 7111
+
+--- Parsed data.attrs['env_args'] (JSON) ---
+{
+  "type": 1,
+  "env_name": "Libero_Tabletop_Manipulation",
+  "problem_name": "libero_tabletop_manipulation",
+  "bddl_file": "chiliocosm/bddl_files/libero_spatial/pick_the_akita_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+  "env_kwargs": {
+    "robots": [
+      "Panda"
+    ],
+    "controller_configs": {
+      "type": "OSC_POSE",
+      "input_max": 1,
+      "input_min": -1,
+      "output_max": [
+        0.05,
+        0.05,
+        0.05,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "output_min": [
+        -0.05,
+        -0.05,
+        -0.05,
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "kp": 150,
+      "damping_ratio": 1,
+      "impedance_mode": "fixed",
+      "kp_limits": [
+        0,
+        300
+      ],
+      "damping_ratio_limits": [
+        0,
+        10
+      ],
+      "position_limits": null,
+      "orientation_limits": null,
+      "uncouple_pos_ori": true,
+      "control_delta": true,
+      "interpolation": null,
+      "ramp_ratio": 0.2
+    },
+    "bddl_file_name": "chiliocosm/bddl_files/libero_spatial/pick_the_akita_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+    "has_renderer": false,
+    "has_offscreen_renderer": true,
+    "ignore_done": true,
+    "use_camera_obs": true,
+    "camera_depths": false,
+    "camera_names": [
+      "robot0_eye_in_hand",
+      "agentview"
+    ],
+    "reward_shaping": true,
+    "control_freq": 20,
+    "camera_heights": 128,
+    "camera_widths": 128,
+    "camera_segmentations": null
+  }
+}
+
+--- Parsed data.attrs['problem_info'] (JSON) ---
+{
+  "problem_name": "libero_tabletop_manipulation",
+  "domain_name": "robosuite",
+  "language_instruction": "pick up the black bowl on the stove and place it on the plate"
+}
+
+--- Demos: 50 total (showing 2) ---
+
+  === demo_0 ===
+    Attributes:
+      init_state: array([ 2.50000000e-01,  2.98066675e-02, -1.50265432e-01, -1.96535788e-02,
+       -2.43777837e+00, -7.47122647e-03,  2.25430591e+00,  8.01292135e-01,
+        3.40176041e-02, -3.40795690e-02, -2.67810488e-01, -1.43094871e-01,
+        9.25458491e-01,  7.07100695e-01,  4.07006496e-03,  8.64822970e-05,
+        7.07101148e-01,  2.71036449e-02, -2.93069273e-01,  1.12639971e+00,
+        7.07106776e-01, -8.06838799e-08,  5.09362540e-09,  7.07106786e-01,
+        5.64471516e-02,  2.94782833e-02,  9.09209797e-01,  7.07106780e-01,
+       -6.93657303e-07, -2.04803289e-06,  7.07106783e-01, -2.09409152e-01,
+        2.03692812e-01,  8.99159534e-01,  7.07106771e-01, -1.51656776e-06,
+        2.14455765e-06,  7.07106791e-01,  4.50920160e-02,  2.06252322e-01,
+        9.02314598e-01,  7.07106894e-01, -1.01377700e-05,  2.00460274e-05,
+        7.07106668e-01,  0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+        0.00000000e+00, -6.20438156e-02,  1.54633473e-02, -4.23433572e-02,
+       -6.00192485e-03, -1.11052721e-02,  1.78660523e-02, -6.91245339e-02,
+        5.76200287e-02, -5.74635121e-02, -2.58280101e-05,  1.29894968e-05,
+        2.97682812e-04,  5.32014303e-03, -2.62084422e-03, -1.19412730e-05,
+        8.71847119e-10,  5.33229759e-09,  1.84241303e-05, -4.99435810e-07,
+       -3.05716368e-06, -7.62386308e-12, -3.11001748e-08, -2.94591044e-08,
+        4.31717953e-03, -3.33441058e-06, -3.18834746e-06,  3.25136588e-11,
+        1.61341084e-09, -4.40665272e-08,  4.85073434e-03, -1.63448603e-06,
+        5.02630504e-05, -4.25660363e-10,  2.91564467e-07,  3.05268076e-07,
+        4.94609225e-03,  1.23423107e-04,  1.28636034e-04,  5.28296470e-09,
+        0.00000000e+00,  0.00000000e+00,  0.00000000e+00,  0.00000000e+00])
+      model_file: '<mujoco model="base">\n  <compiler angle="radian" meshdir="meshes/" autolimits="true"/>\n  <option impratio="20" density="1.2" viscosity="2e-05" cone="elliptic"/>\n  <size njmax="5000" nconmax="5000"/>\n  <visual>\n    <map znear="0.001"/>\n  </visual>\n  <default class="main"/>\n  <asset>\n    <texture type="skybox" builtin="gradient" rgb1="0.9 0.9 1" rgb2="0.2 0.3 0.4" width="256" height="1536"/>\n    <texture type="2d" name="texplane" file="/Users/yifengz/workspace/libero-dev/chiliocosm/assets/scenes/. ... [truncated]'
+      num_samples: 155
+    [Dataset] shape=(155, 7) dtype=float64
+    actions: shape=(155, 7) dtype=float64
+    [Dataset] shape=(155,) dtype=uint8
+    dones: shape=(155,) dtype=uint8
+
+    [Group] obs/
+      obs/agentview_rgb: shape=(155, 128, 128, 3) dtype=uint8
+      obs/ee_ori: shape=(155, 3) dtype=float64
+      obs/ee_pos: shape=(155, 3) dtype=float64
+      obs/ee_states: shape=(155, 6) dtype=float64
+      obs/eye_in_hand_rgb: shape=(155, 128, 128, 3) dtype=uint8
+      obs/gripper_states: shape=(155, 2) dtype=float64
+      obs/joint_states: shape=(155, 7) dtype=float64
+    [Dataset] shape=(155,) dtype=uint8
+    rewards: shape=(155,) dtype=uint8
+    [Dataset] shape=(155, 9) dtype=float64
+    robot_states: shape=(155, 9) dtype=float64
+    [Dataset] shape=(155, 92) dtype=float64
+    states: shape=(155, 92) dtype=float64
+
+  === demo_1 ===
+    Attributes:
+      init_state: array([ 2.50000000e-01, -8.19556099e-04, -1.39817394e-01,  3.30526923e-03,
+       -2.46979604e+00, -1.19592793e-02,  2.25559944e+00,  8.03479196e-01,
+        3.40447073e-02, -3.40670858e-02, -2.50592874e-01, -1.33247946e-01,
+        9.25458491e-01,  7.07100695e-01,  4.07006496e-03,  8.64822970e-05,
+        7.07101148e-01,  3.28540900e-03, -2.96235060e-01,  1.12639971e+00,
+        7.07106776e-01, -8.06838799e-08,  5.09362540e-09,  7.07106786e-01,
+        5.91003633e-02,  3.86053346e-02,  9.09209797e-01,  7.07106780e-01,
+       -6.93657303e-07, -2.04803289e-06,  7.07106783e-01, -2.05227125e-01,
+        1.89416303e-01,  8.99159534e-01,  7.07106771e-01, -1.51656776e-06,
+        2.14455765e-06,  7.07106791e-01,  5.50841103e-02,  1.89713006e-01,
+        9.02314598e-01,  7.07106894e-01, -1.01377700e-05,  2.00460274e-05,
+        7.07106668e-01,  0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+        0.00000000e+00, -2.18323212e-03,  9.41029211e-03, -1.37056818e-03,
+       -1.86077955e-05, -6.22412695e-02,  5.65959839e-03,  4.77546795e-02,
+        5.75448936e-02, -5.75803186e-02, -2.58280101e-05,  1.29894968e-05,
+        2.97682812e-04,  5.32014303e-03, -2.62084422e-03, -1.19412730e-05,
+        8.71847119e-10,  5.33229759e-09,  1.84241303e-05, -4.99435810e-07,
+       -3.05716368e-06, -7.62386314e-12, -3.11001748e-08, -2.94591044e-08,
+        4.31717953e-03, -3.33441058e-06, -3.18834746e-06,  3.25136590e-11,
+        1.61341084e-09, -4.40665272e-08,  4.85073434e-03, -1.63448603e-06,
+        5.02630504e-05, -4.25660363e-10,  2.91564467e-07,  3.05268076e-07,
+        4.94609225e-03,  1.23423107e-04,  1.28636034e-04,  5.28296470e-09,
+        0.00000000e+00,  0.00000000e+00,  0.00000000e+00,  0.00000000e+00])
+      model_file: '<mujoco model="base">\n  <compiler angle="radian" meshdir="meshes/" autolimits="true"/>\n  <option impratio="20" density="1.2" viscosity="2e-05" cone="elliptic"/>\n  <size njmax="5000" nconmax="5000"/>\n  <visual>\n    <map znear="0.001"/>\n  </visual>\n  <default class="main"/>\n  <asset>\n    <texture type="skybox" builtin="gradient" rgb1="0.9 0.9 1" rgb2="0.2 0.3 0.4" width="256" height="1536"/>\n    <texture type="2d" name="texplane" file="/Users/yifengz/workspace/libero-dev/chiliocosm/assets/scenes/. ... [truncated]'
+      num_samples: 125
+    [Dataset] shape=(125, 7) dtype=float64
+    actions: shape=(125, 7) dtype=float64
+    [Dataset] shape=(125,) dtype=uint8
+    dones: shape=(125,) dtype=uint8
+
+    [Group] obs/
+      obs/agentview_rgb: shape=(125, 128, 128, 3) dtype=uint8
+      obs/ee_ori: shape=(125, 3) dtype=float64
+      obs/ee_pos: shape=(125, 3) dtype=float64
+      obs/ee_states: shape=(125, 6) dtype=float64
+      obs/eye_in_hand_rgb: shape=(125, 128, 128, 3) dtype=uint8
+      obs/gripper_states: shape=(125, 2) dtype=float64
+      obs/joint_states: shape=(125, 7) dtype=float64
+    [Dataset] shape=(125,) dtype=uint8
+    rewards: shape=(125,) dtype=uint8
+    [Dataset] shape=(125, 9) dtype=float64
+    robot_states: shape=(125, 9) dtype=float64
+    [Dataset] shape=(125, 92) dtype=float64
+    states: shape=(125, 92) dtype=float64
+
+  ... (48 more demos not shown; use --all-demos or increase --max-demos)
