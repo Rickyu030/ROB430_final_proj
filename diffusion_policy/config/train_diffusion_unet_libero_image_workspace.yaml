@@ -1,0 +1,20 @@
+# Train Diffusion UNet on LIBERO HDF5 converted via DP/LIBERO/convert_libero_hdf5_for_dp.py
+#
+# Prerequisites: use the project's conda env (see conda_environment.yaml, e.g. name robodiff)
+# so that torch, pytorch3d, diffusers, wandb, and DP deps match.
+#
+# Example:
+#   cd diffusion_policy
+#   python train.py --config-name=train_diffusion_unet_libero_image_workspace \\
+#       task.dataset_path=data/libero/your_task_dp_demo.hdf5 training.debug=True logging.mode=disabled
+#
+# Quick structure check without training:
+#   python scripts/verify_libero_dp_hdf5.py data/libero/spatial_one_dp_demo.hdf5
+#
+defaults:
+  - train_diffusion_unet_image_workspace
+  - override task: libero_spatial_one
+  - _self_
+
+name: train_diffusion_unet_libero_image
+_target_: diffusion_policy.workspace.train_diffusion_unet_image_workspace.TrainDiffusionUnetImageWorkspace
