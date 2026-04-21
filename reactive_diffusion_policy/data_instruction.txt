@@ -1,0 +1,6 @@
+topics:      /Marker_Tracking_Right_DXDY       323 msgs    : std_msgs/Float32MultiArray
+             /Tactile_Image_Right              323 msgs    : sensor_msgs/Image         
+             /camera_f/color/image_raw         518 msgs    : sensor_msgs/Image         
+             /camera_r/color/image_raw         518 msgs    : sensor_msgs/Image         
+             /right_arm/joint_ctrl_single      499 msgs    : sensor_msgs/JointState    
+             /right_arm/joint_states_single   3082 msgs    : sensor_msgs/JointState
