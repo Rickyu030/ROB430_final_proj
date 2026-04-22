@@ -1,0 +1,12 @@
+# IsaacGym binaries
+*.so
+*.pyd
+*.dll
+
+# IsaacGym runtime
+TacSL/isaacgym/python/isaacgym/_bindings/
+
+# logs / outputs
+logs/
+videos/
+datasets/
